@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm/
+
+# VS Code project settings
+.vscode/
+
+# Build output
+dist/
+out/
+build/
+coverage/
+
+# Webpack / React builds (WebView frontend)
+webview/dist/
+webview/build/
+
+# Environment files
+.env
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Optional: ignore lock files (if not using exact versions)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Compiled TypeScript
+*.tsbuildinfo
+
+# Misc
+*.tgz
+*.swp
+*.swo
+.idea/
+.cache/
+.eslintcache

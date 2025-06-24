@@ -1,0 +1,49 @@
+{
+  "name": "webchatforgemini",
+  "displayName": "WebChatForGemini",
+  "description": "VSCode extension to interact with Gemini without leaving the IDE",
+  "version": "0.0.5",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "publisher": "wewake",
+  "author": "wewake",
+  "icon": "src/assets/icon.jpeg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viv1/gemini-web-vscode"
+  },
+  "categories": [
+    "Visualization",
+    "Debuggers",
+    "Education",
+    "Machine Learning",
+    "Other"
+  ],
+  "keywords": [
+    "Chat",
+    "LLM",
+    "GenAI",
+    "Gemini"
+  ],
+  "activationEvents": [
+    "onCommand:webchatforgemini.open"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "webchatforgemini.open",
+        "title": "Web Chat for Gemini"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.87.0",
+    "typescript": "^5.3.3"
+  }
+}
