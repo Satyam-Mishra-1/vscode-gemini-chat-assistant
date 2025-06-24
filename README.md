@@ -1,8 +1,4 @@
-Here’s a sample `README.md` file tailored to your **VS Code Gemini-based AI assistant project** that includes a **React WebView chat UI**, **contextual workspace awareness**, **@filename file/image attachments**, and **code generation/manipulation**.
 
----
-
-````markdown
 # 💬 Gemini AI Chat Assistant for VS Code
 
 A modern Visual Studio Code extension that integrates a **React-based WebView chat interface** powered by **Gemini AI**. This assistant supports real-time chat, workspace context awareness, file/image attachments via `@filename` mentions, and code generation directly inside the editor.
