@@ -5,6 +5,14 @@ A modern Visual Studio Code extension that integrates a **React-based WebView ch
 
 ---
 
+
+<div align="center">
+
+<img src="images/image1.png" alt="Home Screen" width="900"/>  
+<br/><br/>
+<img src="images/image2.png" alt="Home Screen" width="900"/>  
+</div>
+
 ## ✨ Key Features
 
 - ✅ **React-based Chat UI**
